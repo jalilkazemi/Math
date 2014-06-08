@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-import java.util.*;
 
 =======
->>>>>>> 4cc48d3432e192e42ea7d492f6f4a12218cea8ef
+>d>>>>>> 4cc48d3432e192e42ea7d492f6f4a12218cea8ef
 public class MyMath {
 	public static int choose(int n, int k) {
 		if(n < k || k < 0)
