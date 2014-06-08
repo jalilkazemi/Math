@@ -1,9 +1,3 @@
-			return n;
-		int result = 0;
-		for(int i = k - 1; i < n; i++)
-			result += choose(i, k - 1);
-		return result;
-	}
 
 	public static int min(int a, int b) {
 		return a < b ? a : b;
