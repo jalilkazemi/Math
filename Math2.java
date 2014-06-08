@@ -1,10 +1,7 @@
-package com.jalil.math;
 import java.util.*;
 
 public class MyMath {
 	public static int choose(int n, int k) {
-		if(n == k || k == 0)
-			return 1;
 		if(n < k || k < 0)
 			return 0;
 		if(k == 1 || k == n - 1)
