@@ -52,15 +52,6 @@ public class MyMath {
 		return sample;
 	}
 
-	public static int[] sort(double[] list) {
-		int n = list.length;
-		int[] order = new int[n];
-		for (int i = 0; i < n; i++) 
-			order[i] = i;
-		mergeSort(list, order);
-		return order;
-	}
-
 	private static void mergeSort(double[] list, int[] order) {
 		int n = list.length;
 		if(n < 2)
