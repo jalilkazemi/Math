@@ -19,14 +19,6 @@ public class MyMath {
 		return a < b ? a : b;
 	}
 
-	public static int[] bootstrap(int nsubject, int ndraw) {
-		int[] sample = new int[ndraw];
-		for (int i = 0; i < ndraw; i++) {
-			sample[i] = (int) Math.floor(Math.random() * nsubject);
-		}
-		return sample;
-	}
-
 	public static int[] sample(int nsubject, int ndraw) {
 		int[] sample = new int[ndraw];
 		if(ndraw * ndraw < nsubject * Math.log(nsubject) * 3) {
