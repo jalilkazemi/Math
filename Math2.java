@@ -1,6 +1,3 @@
-package com.jalil.math;
-import java.util.*;
-
 public class MyMath {
 	public static int choose(int n, int k) {
 		if(n == k || k == 0)
